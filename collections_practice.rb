@@ -11,9 +11,9 @@ def sort_array_char_count(array)
 end
 
 def kesha_maker()
-  
+
 end
 
 def find_a(array)
-  
+
 end
