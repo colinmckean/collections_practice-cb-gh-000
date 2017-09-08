@@ -15,6 +15,10 @@ def swap_elements(array)
   array.insert(2, sliced).flatten
 end
 
+def reverse_array array
+  array.reverse
+end
+
 def kesha_maker()
 end
 
