@@ -11,7 +11,7 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  array.slice(1, 1)
+  array.slice!(1, 1)
   array
 end
 
