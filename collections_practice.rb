@@ -24,6 +24,6 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  
+
   array.any? {|words| words[0] == 'a'}
 end
