@@ -12,6 +12,7 @@ end
 
 def swap_elements(array)
   array.slice(1, 1)
+  array
 end
 
 def kesha_maker()
