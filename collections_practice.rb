@@ -10,8 +10,11 @@ def sort_array_char_count(array)
   array.sort {|a,b| a.length <=> b.length}
 end
 
-def kesha_maker()
+def swap_elements(array)
+  array.slice(1, 1)
+end
 
+def kesha_maker()
 end
 
 def find_a(array)
