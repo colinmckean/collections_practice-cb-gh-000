@@ -11,8 +11,8 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  array.slice!(1, 1)
-  array
+  sliced = array.slice!(1, 1)
+  array.splice(1, sliced)
 end
 
 def kesha_maker()
