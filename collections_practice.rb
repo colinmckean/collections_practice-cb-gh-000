@@ -25,5 +25,5 @@ end
 
 def find_a(array)
 
-  array.collect {|words| words[0] == 'a'}
+  array.all {|words| words[0] == 'a'}
 end
