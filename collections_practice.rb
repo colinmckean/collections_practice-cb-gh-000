@@ -12,7 +12,7 @@ end
 
 def swap_elements(array)
   sliced = array.slice!(1, 1)
-  array.splice(1, sliced)
+  array.insert(1, sliced)
 end
 
 def kesha_maker()
