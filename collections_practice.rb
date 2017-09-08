@@ -26,3 +26,8 @@ end
 def find_a(array)
   array.select {|words| words[0] == 'a'}
 end
+
+def sum_array(array)
+  array.reduce(:+)
+  
+end
